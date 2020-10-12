@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title NitryaAcad
+    block scripts
+    block style
+     style 
+       include ../static/style.css
+  body
+    nav#navbar
+        div#logo
+              img(src="/static/img/logo.png", alt="logo")
+              | NitryaAcad
+        ul
+           li #[a(href ="/") Home]
+           li #[a About]
+           li #[a(href ="/contact") Contact Us]
+           li #[a Services]
+    block content
+    
+    footer#footer.footer
+     h2 Copyright 2020 nitryaAcad.com.in | All right reserved.

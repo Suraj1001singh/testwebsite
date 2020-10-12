@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+  
+#navbar{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 1.3rem;
+    
+}
+#navbar ul li{
+    list-style: none;
+    padding: 1.3rem 1rem;
+    cursor: pointer;
+    text-decoration-color: hotpink;
+    color: white;
+    
+}
+#navbar ul li a{
+    padding: 1.6rem 1rem;
+    font-size: 1.3rem;
+    position: relative;
+    color: white;
+    
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    /* transform: scale(1.4,1.4); */
+    
+}
+#navbar #logo{
+    
+    display: flex;
+    color: white;
+    font-size: 1.7rem;
+    align-items: center;
+    margin: 0 14px;
+    
+}
+#navbar #logo img{
+    margin-right: 20px;
+     height: 45px;
+    filter: invert(100%);
+  
+    
+}
+
+
+#introSection{
+    color: white;
+    background: center/cover no-repeat url("../static/bg.jpg") ;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    font-size: 3.2rem;
+    padding-bottom: 40px;
+    
+}
+#introSection .small{
+    font-size: 2.2rem;
+}
+#sponserSection{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 300px;
+   
+}
+#sponserSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 2.5rem;
+    color: white;
+    
+   
+}
+#missionSection{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 450px;
+    justify-content: space-evenly;
+    width: 100%;
+    
+   
+}
+#missionSection .cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    
+
+   
+}
+#missionSection .cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 1rem 3rem;
+    padding: 1rem;
+    color: #afaaaa;
+    border-radius: 21px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+}
+#missionSection .cards .card h3{
+    color: white;
+    font-size: 1.4rem;
+    line-height: 40px;
+    
+}
+#missionSection .cards .card p{
+    text-align: justify;
+    
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 2.5rem;
+    color: black;
+    
+   
+}
+
+
+#sponsers{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.spImage{
+    height: 60%;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+    
+
+}
+#footer h2{
+    color: white;
+    font-size: 1rem;
+    padding: 15px;
+}
